@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* color: #f4f4f4; */
+  overflow-x: hidden;
+  /* font-family: "Roboto", sans-serif !important; */
+}
+.navbar .navbar-nav a {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.page-holder {
+  min-height: 30vh;
+}
+
+.bg-cover {
+  background-size: cover !important;
+}
+/* sahred hosting header */
+.bg-cover-shared {
+  background-size: cover !important;
+
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url("../Images/small-pxbull-homepage-scene.jpg");
+}
+
+/* wordpress hosting header */
+.bg-cover-wordpress {
+  background-size: cover !important;
+  background-position: center right;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url("../Images/wordpress-581849_1920_simplu27.jpg") !important;
+}
+/* cloudhosting  */
+.bg-cover-cloudhosting {
+  background-size: cover !important;
+  background-position: center right;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url("../Images/Banner-img.jpg") !important;
+}
+
+/* Vpshosting  */
+.bg-cover-vpshosting {
+  background-size: cover !important;
+  background-position: center right;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url("../Images/vpshosting.jpg") !important;
+}
+/* Resellerhosting  */
+.bg-cover-Reseellerhosting {
+  background-size: cover !important;
+  background-position: center right;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url("../Images/resellerhosting.jpg") !important;
+}
+/* dadicatedserver  */
+.bg-cover-dadicatedserver {
+  background-size: cover !important;
+  background-position: center right;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url("../Images/dadicatedserver.jpg") !important;
+}
+
+/* emailhosting  */
+.bg-cover-emailhosting {
+  background-size: cover !important;
+  background-position: center right;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url("../Images/emailhosting.jpg") !important;
+}
+/* clouddrive  */
+.bg-cover-clouddrive {
+  background-size: cover !important;
+  background-position: center right;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url("../Images/clouddrive.png") !important;
+}
+/* webdevlope  */
+.bg-cover-webdevlope {
+  background-size: cover !important;
+  background-position: center right;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url("../Images/web-development\ bg.jpg") !important;
+}
+/* wordpressdevlope  */
+.bg-cover-wordpressdevlope {
+  background-size: cover !important;
+  background-position: center right;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url("../Images/wordpress_08.jpg") !important;
+}
+/* footer above card start */
+.bg-cover-card1 {
+  background-size: cover !important;
+  background-position: center right;
+  background-image: url(https://pxbull.com/wp-content/uploads/2020/11/hosting-company-06.png),
+    linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+  box-shadow: 0px 90px 160px 0px rgb(0 0 0 / 6%);
+}
+
+.bg-cover-card2 {
+  background-size: cover !important;
+  background-position: center right;
+  background-image: url(https://pxbull.com/wp-content/uploads/2020/11/hosting-company-07-1.png),
+    linear-gradient(150deg, #ffba61 0%, #ffdc71 100%);
+  /* box-shadow: 0px 90px 160px 0px rgb(0 0 0 / 6%); */
+}
+/* footer above cards end */
+
+/* header box */
+.box1 {
+  font-family: "Roboto , sans-serif";
+  font-size: 15px;
+  line-height: 1.6;
+  background-color: rgba(36, 36, 76, 0.62);
+  max-width: 300px;
+  height: 27%;
+  position: relative;
+  left: 100px;
+  overflow: hidden;
+  border-radius: 6px;
+  padding: 50px;
+  color: white;
+  top: 80px;
+  border-top: 5px solid rgb(250, 115, 5);
+  margin-bottom: 100px;
+}
+.box1 ul li {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.cards {
+  cursor: pointer;
+  height: 60vh;
+  border-radius: 20px;
+  border-top: 5px solid rgb(250, 115, 5);
+}
+
+.hd {
+  font-size: 25px;
+  font-weight: 550;
+}
+
+.cards.hover,
+.cards:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+  border-top: 5px solid rgb(250, 115, 5);
+  border-bottom: 5px solid rgb(250, 115, 5);
+  transition: 0.5s;
+}
+.navbar .navbar-nav li a {
+  color: black;
+}
+.card-title {
+  font-weight: 600;
+}
+
+button.focus,
+button:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+.testomoinal {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
+}
+
+/*PX footer Css*/
+.a {
+  text-decoration: none;
+  color: white;
+}
+.a:hover {
+  color: white;
+}
+.paymethod {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.foot-head {
+  color: orangered;
+}
+.main-footer {
+  background-color: #222222;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+.img1 {
+  padding-right: 100px;
+}
